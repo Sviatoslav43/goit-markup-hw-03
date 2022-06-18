@@ -1,0 +1,202 @@
+:root {
+    /* fonts */
+    --main-fonts: "Roboto";
+    --secondary-fonts: "Raleway";
+    
+    /* text colors */
+    --accent-txt-cl: #757575;
+    --secondary-txt-cl: #212121;
+ 
+    /* background colors */
+    --secondary-bg-cl: #2F303A;
+    --third-party-bg: #F5F4FA;
+    
+    --blue-color: #2196F3;
+    --white-clr: #ffffff;
+
+}
+body {
+    font-family: var(--main-fonts), sans-serif;
+    color: var(--accent-txt-cl);
+    letter-spacing: 0.03em;
+}
+
+.logo {
+    font-family: var(--secondary-fonts);
+    text-decoration: none;
+    font-size: 26px;
+    color: var(--blue-color);
+    line-height: 1.19;
+}
+   
+
+
+.studio-header {
+    color: #000000;
+}
+.link {
+    text-decoration: none;
+    color: var(--secondary-txt-cl);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.link:hover,
+.link:focus {
+    color: var(--blue-color);
+        
+}
+
+.list {
+    list-style-type: none;
+}
+.list-contact {
+    color: var(--accent-txt-cl);
+}
+
+/* Ceкия Hero */
+.hero-block {
+    background-color: #2F303A;
+}
+    
+.slogan {
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.36;
+    vertical-align: top;
+    color: var(--white-clr);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+}
+.main-btn {
+    font-family: var(--main-fonts);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    background-color: var(--blue-color);
+    color: var(--white-clr);
+    cursor: pointer;
+    letter-spacing: 0.06em;
+}
+.main-btn:hover,
+.main-btn:focus {
+    background-color: #188CE8;
+}
+/* Секция About */
+.tag-line {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    color:  var(--secondary-txt-cl);
+    text-transform: uppercase;
+
+}
+.text-about {
+    line-height: 1.71;
+    font-size: 14px;
+    
+} 
+/* Секция Example */
+.title-caption {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    color:  var(--secondary-txt-cl);
+    
+}
+/* Секция Team */
+.section-team {
+    background-color: var(--third-party-bg);
+}
+.member {
+    background-color: var(--white-clr);
+}
+.member-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    color:  var(--secondary-txt-cl);
+}
+.member-job {
+    font-size: 16px;
+    line-height: 1.18;
+}
+
+/* Секция Footer */
+
+.footer-description {
+    background-color: #2F303A;
+    font-style: normal;
+}
+.studio-footer {
+    color: var(--white-clr);
+}
+.address-street {
+    text-decoration: none;
+    color: var(--white-clr);
+    line-height: 1.71;
+    font-style: normal;
+    font-size: 14px;
+}
+.address-street:hover,
+.address-street:focus {
+    color: #188CE8;
+}
+.link-footer {
+    text-decoration: none;
+    line-height: 1.71;
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+    font-size: 14px;
+}
+.link-footer:hover,
+.link-footer:focus {
+    color: #188CE8;
+}
+
+/* New page */
+/* Page Portfolio */
+/*  */
+/*  */
+.portfolio-btn {
+    list-style: none;
+}
+
+.btn-item {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    background-color: #F5F4FA;
+    color: var(--secondary-txt-cl);
+    cursor: pointer;
+    letter-spacing: 0.03em;
+}
+
+.btn-item:hover,
+.btn-item:focus {
+    color: var(--white-clr);
+    background-color: var(--blue-color);
+}
+.portfolio-example {
+   list-style: none;
+}
+.example-link {
+    text-decoration: none;
+    cursor: pointer;
+}
+.example-name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    color: var(--secondary-txt-cl);
+    letter-spacing: 0.06em;
+    text-decoration: none;
+}
+.example-desc {
+    font-size: 16px;
+    line-height: 1.87;
+    color: var(--accent-txt-cl);
+}
