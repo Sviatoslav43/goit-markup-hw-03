@@ -50,11 +50,13 @@ img {
 
 /* Секция Header */
 
+.header-container {
+    border-bottom: 1px solid #ECECEC;
+}
+
 .header-desc {
     display: flex;
     align-items: center;
-
-    border-bottom: 1px solid #ECECEC;
 }
 
 /* .nav-content {
@@ -132,6 +134,8 @@ img {
 /* Ceкия Hero */
 .hero-block {
     background-color: var(--secondary-bg-cl);
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
     
 .slogan {
@@ -276,13 +280,20 @@ img {
     margin: calc(var(--indent) / 2);
 }
 
+.class-member-list {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
 .member-name {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
     color:  var(--secondary-txt-cl);
 
-    margin-top: 30px;
+    margin-top: 0px;
+    
     margin-bottom: 10px;
     text-align: center;
 }
@@ -292,7 +303,7 @@ img {
     line-height: 1.18;
 
     margin-top: 0px;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
     text-align: center;
 }
 
@@ -392,6 +403,16 @@ img {
     background-color: var(--blue-color);
 }
 
+.portfolio-desc-list {
+    
+    padding: 20px 23px;
+    
+    /* border-bottom: 1px solid #eee;
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee; */
+}
+
+
 .portfolio-example {
     list-style: none;
 
@@ -404,6 +425,9 @@ img {
 .portfolio-example-item {
     flex-basis: calc((100% - var(--indent) * var(--items)) / var(--items));
     margin: calc(var(--indent) / 2);
+
+    border: 1px solid #eee;
+      
 }
 
 .example-link {
@@ -411,10 +435,10 @@ img {
     cursor: pointer;
     
     display: inline-block;
-    padding: 0px;
+    /* padding: 0px;
     border-bottom: 1px solid #eee;
     border-left: 1px solid #eee;
-    border-right: 1px solid #eee;
+    border-right: 1px solid #eee; */
 }
 
 .example-name {
@@ -424,8 +448,10 @@ img {
     color: var(--secondary-txt-cl);
     letter-spacing: 0.06em;
     text-decoration: none;
-    
-    margin: 20px 24px 4px;
+
+    margin: 0px;
+    margin-bottom: 4px;
+    /* margin: 20px 24px 4px; */
 }
 
 .example-desc {
@@ -433,6 +459,6 @@ img {
     line-height: 1.87;
     color: var(--accent-txt-cl);
 
-    margin: 0px 24px 20px;
+    margin: 0px;
     
 }
